@@ -30,6 +30,18 @@ public class QuadraticEquation {
         /*
         Implement the algorithm for solving a quadratic equation here.
          */
+        
+        int D = b*b - 4*a*c;
+        if (D < 0){
+            System.out.println("No roots");
+        }
+        else if(D == 0){
+            System.out.println(-b / 2*a);
+        }
+        else {
+            D = (int)(Math.sqrt((double)(D)));
+            System.out.println(((-b - D)/ 2*a) + " " + ((-b + D)/ 2*a));
+        }
     }
 
 }
