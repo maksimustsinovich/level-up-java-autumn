@@ -15,4 +15,3 @@ Here are the practice assignments for the Java Core course, as well as the tests
 
 1) [Exchange Variables Values](src/main/java/by/bsuir/levelup/lesson01/ExchangeVariableValues.java)
 2) [Quadratic Equation](src/main/java/by/bsuir/levelup/lesson01/QuadraticEquation.java)
-3) 
