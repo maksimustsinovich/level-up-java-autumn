@@ -17,6 +17,11 @@ public class ExchangeVariableValues {
         Implement the exchange of the value of variables A and B here.
          */
 
+        a = a*b;
+        b = a/b;
+        a = a/b;
+
+
         System.out.println("A = " + a + ". B = " + b + "." ); // DON'T TOUCH.
     }
 
