@@ -28,7 +28,7 @@ public class TriangleArea {
         if(a<b+c && b<a+c&& c<a+b)
         {
             area = Math.sqrt(halfPerimeter*(halfPerimeter - a)*(halfPerimeter - b)*(halfPerimeter-c));
-            System.out.println("Area: " + Math.floor(area));
+            System.out.println("Area: " + (int)area);
         }
         else
             System.out.println("Invalid triangle");
