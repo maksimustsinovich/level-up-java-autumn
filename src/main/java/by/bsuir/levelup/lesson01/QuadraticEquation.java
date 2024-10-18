@@ -30,6 +30,25 @@ public class QuadraticEquation {
         /*
         Implement the algorithm for solving a quadratic equation here.
          */
+        int discriminant = b*b - 4*a*c;
+
+        if (discriminant < 0)
+            System.out.println("Нет решения");
+
+        else
+        {
+            root1 = (-b - Math.sqrt(discriminant)) / (2*a);
+            root2 = (-b + Math.sqrt(discriminant)) / (2*a);
+
+            if (root1 == root2)
+            {
+                System.out.println("x1 == x2 == " + root1);
+            }
+            else
+            {
+                System.out.println("x1 == " + root1);
+                System.out.println("x2 == " + root2);
+            }
     }
 
 }

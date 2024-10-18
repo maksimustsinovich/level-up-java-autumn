@@ -25,6 +25,14 @@ public class Greeting {
         /*
         Implement logic here.
          */
+        if(greeting.equals("Hi"))
+            System.out.println("Hello");
+        else if (greeting.equals("Bye"))
+            System.out.println("Good bye");
+        else if (greeting.equals("How are you"))
+            System.out.println("How are you doing");
+        else
+            System.out.println("Wtf?");
     }
 
 }

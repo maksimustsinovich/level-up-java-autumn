@@ -23,6 +23,15 @@ public class TriangleArea {
         /*
         Implement your logic here
          */
+        int halfPerimeter = (a+b+c)/2;
+        double area = 0;
+        if(a<b+c && b<a+c&& c<a+b)
+        {
+            area = Math.sqrt(halfPerimeter*(halfPerimeter - a)*(halfPerimeter - b)*(halfPerimeter-c));
+            System.out.println("Area: " + (int)area);
+        }
+        else
+            System.out.println("Invalid triangle");
     }
 
 }
